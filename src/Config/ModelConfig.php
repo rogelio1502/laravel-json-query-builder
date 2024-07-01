@@ -148,9 +148,9 @@ class ModelConfig
             return;
         }
 
-        $connection
-            ->getDoctrineSchemaManager()
-            ->getDatabasePlatform()
-            ->registerDoctrineTypeMapping('enum', 'string');
+        // $connection
+        //     ->getDoctrineSchemaManager()
+        //     ->getDatabasePlatform()
+        //     ->registerDoctrineTypeMapping('enum', 'string');
     }
 }
